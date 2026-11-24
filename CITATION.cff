@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Якщо ви використовуєте цей артефакт, будь ласка, процитуйте його так."
+title: "Reproducible Benchmark Environment for Machine Learning Experiments: Flow-based NIDS Baseline on NSL-KDD"
+type: software
+version: 1.0.0
+date-released: 2026-11-23
+license: MIT
+authors:
+  - family-names: Shevchuk
+    given-names: Pavlo
+    affiliation: "Хмельницький національний університет"
+keywords:
+  - reproducibility
+  - mlflow
+  - docker
+  - network intrusion detection

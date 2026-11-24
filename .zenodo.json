@@ -1,0 +1,24 @@
+{
+  "title": "Reproducible Benchmark Environment for Machine Learning Experiments: Flow-based NIDS Baseline on NSL-KDD",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "Повний відтворюваний пакет обчислювального експерименту, що включає код, Docker-контейнер та зафіксовані логи MLflow. Експеримент навчає потокову базову модель виявлення мережевих вторгнень (Random Forest) на NSL-KDD і оцінює її як на валідаційній вибірці, так і на KDDTest+ поза навчальним розподілом. Залежності закріплено в requirements.txt, середовище ізольовано в Docker (python:3.10-slim), дані версіонуються DVC з контролем MD5, параметри й метрики фіксуються в MLflow.",
+  "creators": [
+    {
+      "name": "Shevchuk, Pavlo",
+      "affiliation": "Хмельницький національний університет"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": ["reproducibility", "machine learning", "docker", "mlflow", "open science", "dvc", "network intrusion detection", "NSL-KDD"],
+  "language": "ukr",
+  "related_identifiers": [
+    {
+      "relation": "references",
+      "identifier": "10.1109/CISDA.2009.5356528",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    }
+  ]
+}

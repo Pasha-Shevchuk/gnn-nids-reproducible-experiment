@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+# MLflow (локальні сховища запусків)
+mlruns/
+mlflow_server/
+# Дані відстежуються DVC, а не Git (див. data/*.dvc)
+outputs/

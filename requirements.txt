@@ -1,0 +1,12 @@
+# Закріплені версії залежностей експерименту (Python 3.10)
+mlflow==2.11.0
+scikit-learn==1.4.0
+pandas==2.2.0
+numpy==1.26.4
+matplotlib==3.8.2
+# транзитивні залежності, що впливають на результат/запуск
+scipy==1.13.1
+pyarrow==15.0.2
+setuptools==69.5.1
+# сумісна з mlflow 2.11 версія ORM для сервера MLflow (новіші ламають mlflow server)
+SQLAlchemy==2.0.27
